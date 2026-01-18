@@ -75,3 +75,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+collections:
+  pages:
+    output: true
