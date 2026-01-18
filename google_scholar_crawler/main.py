@@ -13,17 +13,17 @@ RESULT_DIR = "results"
 AUTHOR_ID = os.environ.get("GOOGLE_SCHOLAR_ID")
 
 # -----------------------------
-# HARD TIMEOUT (prevents hang)
+# HARD TIMEOUT
 # -----------------------------
 def timeout_handler(signum, frame):
-    print("ERROR: Google Scholar request timed out", flush=True)
+    print("ERROR: Scholar request timed out", flush=True)
     sys.exit(0)
 
 signal.signal(signal.SIGALRM, timeout_handler)
 signal.alarm(TIMEOUT_SECONDS)
 
 # -----------------------------
-# BASIC CHECKS
+# BASIC CHECK
 # -----------------------------
 if not AUTHOR_ID:
     print("ERROR: GOOGLE_SCHOLAR_ID not set", flush=True)
@@ -32,13 +32,7 @@ if not AUTHOR_ID:
 print("Starting Google Scholar scan", flush=True)
 
 # -----------------------------
-# SCHOLARLY SAFETY SETTINGS
-# -----------------------------
-scholarly.use_proxy(None)      # disable free-proxy
-scholarly.set_timeout(10)      # internal request timeout
-
-# -----------------------------
-# FETCH AUTHOR
+# FETCH AUTHOR (NO PROXIES)
 # -----------------------------
 try:
     print("Fetching author profile...", flush=True)
@@ -59,12 +53,10 @@ except Exception as e:
 # -----------------------------
 author["updated"] = datetime.utcnow().isoformat() + "Z"
 
-# Reduce payload size (important for CI)
 if "publications" in author:
     author["publications"] = {
-        p["author_pub_id"]: p
-        for p in author["publications"]
-        if "author_pub_id" in p
+        p.get("author_pub_id", str(i)): p
+        for i, p in enumerate(author["publications"])
     }
 
 # -----------------------------
@@ -86,5 +78,4 @@ with open(f"{RESULT_DIR}/gs_data_shieldsio.json", "w", encoding="utf-8") as f:
 
 print("Google Scholar scan completed successfully", flush=True)
 
-# Cancel alarm if everything finished
 signal.alarm(0)
