@@ -1,0 +1,77 @@
+# ═══════════════════════════════════════════════════════════════
+# AcadHomepage Configuration for Anusha Srirenganathan Malarvizhi
+# Replace the content in your forked repo's _config.yml with this
+# ═══════════════════════════════════════════════════════════════
+
+# Basic Information 
+title: "Anusha Srirenganathan Malarvizhi"
+description: "Research Scientist at George Mason University"
+repository: "SivanuHappy/SivanuHappy.github.io"
+google_analytics_id: ""  # Optional: Add your Google Analytics ID
+
+# SEO Related (Optional - get from search engine consoles)
+google_site_verification: ""
+bing_site_verification: ""
+baidu_site_verification: ""
+
+# Site Settings
+url: "https://SivanuHappy.github.io"
+baseurl: ""
+
+# Google Scholar ID (for citation crawler)
+google_scholar_stats_use_cdn: true
+
+# Author Information
+author:
+  name: "Anusha Srirenganathan Malarvizhi"
+  avatar: "images/avatar.jpg"  # Upload your photo to images/ folder
+  bio: "Research Scientist"
+  affiliation: "George Mason University"
+  affiliation_link: "https://www.gmu.edu"
+  email: "asrireng@gmu.edu"
+  address: "Fairfax, VA 22030"
+  
+  # Social Links (leave empty if not applicable)
+  google_scholar: "vDCNltwAAAAJ"  # Google Scholar ID
+  orcid: ""           # Your ORCID ID (just the number part)
+  github: "SivanuHappy"
+  linkedin: ""        # Your LinkedIn username
+  twitter: ""         # Your Twitter handle (without @)
+  researchgate: ""    # Your ResearchGate profile name
+
+# ═══════════════════════════════════════════════════════════════
+# Don't modify below unless you know what you're doing
+# ═══════════════════════════════════════════════════════════════
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - run_server.sh
+  - google_scholar_crawler
+  - README.md
+  - docs
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
