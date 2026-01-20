@@ -1,0 +1,53 @@
+// Dark mode implementation
+:root {
+  --bg-color: #fff;
+  --text-color: #494e52;
+  --link-color: #0c7489;
+  --sidebar-bg: #fff;
+  --border-color: #f2f3f3;
+  --code-bg: #fafafa;
+  --masthead-bg: #fff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #e4e4e4;
+  --link-color: #5eb3c7;
+  --sidebar-bg: #252525;
+  --border-color: #333;
+  --code-bg: #2d2d2d;
+  --masthead-bg: #252525;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+}
+
+.sidebar {
+  background: var(--sidebar-bg);
+}
+
+.masthead {
+  background: var(--masthead-bg);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: var(--text-color);
+  transition: transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
