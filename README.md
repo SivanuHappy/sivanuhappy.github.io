@@ -51,6 +51,6 @@ Edit `_config.yml`:
 
 ## 📧 Contact
 
-- Email: asrireng@gmu.edu
+- Email: anusha25cse@gmail.com
 - LinkedIn: [sivanuhappy25](https://www.linkedin.com/in/sivanuhappy25/)
 - GitHub: [@SivanuHappy](https://github.com/SivanuHappy)
