@@ -2,9 +2,9 @@
 
 <div class='intro' markdown="1">
 
-I am a Postdoctoral Researcher in the [Gangarosa Department of Environmental Health](https://sph.emory.edu/departments/eh/) at [Emory University](https://www.emory.edu/)'s Rollins School of Public Health. On a [Health Effects Institute (HEI)](https://www.healtheffects.org/) project examining the health impacts of unconventional oil and gas development, my work focuses on uncertainty quantification for satellite-based air pollution exposure assessment, including satellite validation and how retrieval conditions, viewing geometry, clouds, and spatiotemporal sampling affect exposure reliability.
+I am a Postdoctoral Researcher in the [Gangarosa Department of Environmental Health](https://sph.emory.edu/departments/eh/) at [Emory University](https://www.emory.edu/)'s Rollins School of Public Health. In the [Health Effects Institute (HEI)](https://www.healtheffects.org/) project examining the health impacts of unconventional oil and gas development, my work focuses on uncertainty quantification for satellite-based air pollution exposure assessment, including satellite validation and how retrieval conditions, viewing geometry, clouds, and spatiotemporal sampling affect exposure reliability.
 
-Uncertainty quantification is a central theme of my research, which combines satellite remote sensing, geospatial AI, and spatiotemporal data integration to assess how confidently environmental predictions can be used. I received my Ph.D. in Earth Systems and Geoinformation Science from George Mason University in December 2025. My work has been cited <strong><span id='total_cit'>175</span>+</strong> times on [Google Scholar](https://scholar.google.com/citations?user=vDCNltwAAAAJ).
+Uncertainty quantification is a central theme of my research, which combines satellite remote sensing, geospatial AI, and spatiotemporal data integration to assess the reliability of environmental observations and predictions. I received my Ph.D. in Earth Systems and Geoinformation Science from George Mason University in December 2025. My work has been cited <strong><span id='total_cit'>175</span>+</strong> times on [Google Scholar](https://scholar.google.com/citations?user=vDCNltwAAAAJ).
 
 </div>
 
