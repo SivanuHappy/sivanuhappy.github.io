@@ -28,7 +28,7 @@
 
 - **Ph.D.** Earth Systems and Geoinformation Science, George Mason University, 2020-2025
 - **M.S.** Information Systems, Illinois State University, 2016-2018
-- **M.Tech.** Remote Sensing, Anna University, 2010-2012 🏆 *Gold Medalist*
+- **M.Tech.** Remote Sensing, Anna University, 2010-2012
 - **B.E.** Computer Science, Anna University, 2006-2010
 
 ## Teaching & Service

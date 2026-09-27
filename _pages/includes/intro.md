@@ -6,9 +6,9 @@ My research brings together satellite remote sensing, geospatial AI, and spatiot
 
 # 🔬 Research Interests
 
-- Remote Sensing Applications on Air Quality Monitoring
-- Geographic Information Systems (GIS)
-- Spatial Cloud Computing
+- Satellite Remote Sensing and Validation for Air Quality
+- Air Pollution Exposure Assessment for Environmental Health
+- Uncertainty Quantification and Characterization
 - Geospatial AI and Machine Learning
-- Uncertainty Quantification
-- Spatial Data Fusion
+- Spatiotemporal Data Integration and Fusion
+- GIS and Spatial Cloud Computing
