@@ -10,6 +10,9 @@
 - Supporting research on the health impacts of unconventional oil and gas development through improved environmental exposure estimates
 
 **Research Scientist** | *NSF Spatiotemporal Innovation Center, George Mason University* | Jan 2026 - Jul 2026
+- Developed uncertainty-aware AI/ML methods for air quality monitoring and low-cost sensor calibration
+- Conducted research on satellite remote sensing, geospatial AI, and spatiotemporal data integration for environmental applications
+- Evaluated model reliability and uncertainty under challenging conditions, including extreme air pollution and wildfire events
 
 **Graduate Research Assistant** | *NSF Spatiotemporal Innovation Center, George Mason University* | Aug 2020 - Dec 2025
 - Led development of LSTM-based PM₂.₅ calibration models for low-cost air quality sensors
