@@ -4,7 +4,13 @@
 
 ## Research
 
-**Graduate Research Assistant** | *NSF Spatiotemporal Innovation Center, George Mason University* | Aug 2020 - Present
+**Postdoctoral Researcher** | *Gangarosa Department of Environmental Health, Emory University* | Aug 2026 - Present
+- Improving satellite-based air pollution exposure assessment as part of a Health Effects Institute (HEI)-funded project
+- Studying the health impacts of unconventional oil and gas development
+
+**Research Scientist** | *NSF Spatiotemporal Innovation Center, George Mason University* | Jan 2026 - Jul 2026
+
+**Graduate Research Assistant** | *NSF Spatiotemporal Innovation Center, George Mason University* | Aug 2020 - Dec 2025
 - Led development of LSTM-based PM₂.₅ calibration models for low-cost air quality sensors
 - Designed uncertainty quantification framework for calibrated sensor data
 - Built Science Data Analytics Platform (SDAP) API services

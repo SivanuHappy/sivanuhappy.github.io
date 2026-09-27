@@ -5,7 +5,7 @@
   <a href="https://github.com/SivanuHappy" target="_blank" style="text-decoration: none; margin-right: 15px;">
     <i class="fab fa-github" style="font-size: 24px;"></i> GitHub
   </a>
-  <a href="mailto:asrireng@gmu.edu" style="text-decoration: none; margin-right: 15px;">
+  <a href="mailto:asriren@emory.edu" style="text-decoration: none; margin-right: 15px;">
     <i class="fas fa-envelope" style="font-size: 24px;"></i> Email
   </a>
   <a href="https://scholar.google.com/citations?user=vDCNltwAAAAJ" target="_blank" style="text-decoration: none;">
