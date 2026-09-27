@@ -6,7 +6,8 @@
 
 **Postdoctoral Researcher** | *Gangarosa Department of Environmental Health, Emory University* | Aug 2026 - Present
 - Improving satellite-based air pollution exposure assessment as part of a Health Effects Institute (HEI)-funded project
-- Studying the health impacts of unconventional oil and gas development
+- Validating satellite air quality products using ground-based observations and characterizing uncertainty associated with retrieval conditions, viewing geometry, cloud conditions, and spatial-temporal sampling
+- Supporting research on the health impacts of unconventional oil and gas development through improved environmental exposure estimates
 
 **Research Scientist** | *NSF Spatiotemporal Innovation Center, George Mason University* | Jan 2026 - Jul 2026
 
