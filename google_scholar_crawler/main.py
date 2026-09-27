@@ -3,6 +3,10 @@ import jsonpickle
 import json
 from datetime import datetime
 import os
+import logging
+
+# Show scholarly's retry messages (captcha, 403) in the Actions log
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
 
 author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])

@@ -1,17 +1,23 @@
 name: Get Citation Data
 
 on: 
- page_build:
  workflow_dispatch:
  schedule:
   - cron:  '0 8 * * *'
 
 permissions:
   contents: write   # 🔑 REQUIRED
+
+# Never run two scrapes at once; a new run replaces a stuck one
+concurrency:
+  group: google-scholar-crawler
+  cancel-in-progress: true
   
 jobs:
   build:
     runs-on: ubuntu-latest
+    # scholarly retries forever when Google Scholar blocks the runner; fail fast instead of hanging for 6 hours
+    timeout-minutes: 20
     steps:
     - uses: actions/checkout@v4
     - name: Install Reqs
@@ -21,7 +27,7 @@ jobs:
       run: |
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
-        python3 main.py
+        PYTHONUNBUFFERED=1 python3 main.py
         cd ./results
         git init
         git config --local user.name "${GITHUB_ACTOR}"
