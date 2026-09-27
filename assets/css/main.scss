@@ -126,3 +126,8 @@ h1:before, .anchor:before {
     border: 1px solid var(--link-color);
     border-radius: 999px;
 }
+
+// Extra space between the intro paragraphs on the homepage
+.intro p {
+    margin-bottom: 1.25em;
+}
