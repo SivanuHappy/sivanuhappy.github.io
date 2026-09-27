@@ -107,3 +107,22 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+// Featured paper without an image: let the text use the full width
+.paper-box .paper-box-text:only-child {
+    max-width: 100%;
+    padding-left: 0;
+}
+
+// Google Scholar citation count badge (filled in by fetch_google_scholar_stats.html)
+.show_paper_citations.has-citations {
+    display: inline-block;
+    margin-left: 0.4em;
+    padding: 0.05em 0.6em;
+    font-size: 0.8em;
+    font-weight: 600;
+    line-height: 1.6;
+    white-space: nowrap;
+    color: var(--link-color);
+    border: 1px solid var(--link-color);
+    border-radius: 999px;
+}

@@ -10,9 +10,10 @@
             // document.getElementById('total_cit').innerHTML = totalCitation;
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+                var paper = data['publications'][element.getAttribute('data')]
+                if (!paper || !paper['num_citations']) return;
+                element.textContent = 'Cited by ' + paper['num_citations'];
+                element.classList.add('has-citations');
             });
         });
     })
