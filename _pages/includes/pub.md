@@ -4,6 +4,8 @@
 
 ## Journal Articles
 
+- Yang, C., **Malarvizhi, A. S.**, Masri, Y., Smith, J. S., Li, Z., Huang, Q., Liu, L., & Kim, J. (2026). Digital twins as decision infrastructure: Evolution, architecture, and research roadmap. *Big Earth Data*, 1-46. [\[Paper\]](https://doi.org/10.1080/20964471.2026.2678046) <span class='show_paper_citations' data='vDCNltwAAAAJ:hC7cP41nSMkC'></span>
+
 - **Malarvizhi, A. S.**, Smith, K., & Yang, C. (2026). Uncertainty quantification in geospatial AI/ML applications: Methods, metrics, and open-source support with an air quality use case. *Big Earth Data*, 1-34. [\[Paper\]](https://doi.org/10.1080/20964471.2026.2629680) <span class='show_paper_citations' data='vDCNltwAAAAJ:L8Ckcad2t8MC'></span>
 
 - **Malarvizhi, A. S.**, Pan, P., Stover, T., Sun, D., & Yang, C. (2025). Optimizing GAIN model to improve AOD imputation using MODIS MAIAC data and multi-source data fusion as an example. *GIScience & Remote Sensing*. [\[Paper\]](https://doi.org/10.1080/15481603.2025.2571244) <span class='show_paper_citations' data='vDCNltwAAAAJ:kNdYIx-mwKoC'></span>

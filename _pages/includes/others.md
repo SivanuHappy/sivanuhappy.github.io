@@ -36,4 +36,4 @@
 - **Instructor**, GGS 590: Digital Twins for Earth Systems, George Mason University, 2026-Present
 - **Graduate Teaching Assistant**, Illinois State University, 2017-2018
 - **Mentor**, ASSIP Program, George Mason University, 2020-2025
-- **Mentor**, NSF START Program, 2022-Present
+- **Mentor**, NSF START Program, George Mason University, 2022-2026
