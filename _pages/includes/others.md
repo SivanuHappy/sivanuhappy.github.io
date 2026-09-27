@@ -11,7 +11,7 @@
 
 **Research Scientist** | *NSF Spatiotemporal Innovation Center, George Mason University* | Jan 2026 - Jul 2026
 - Developed uncertainty-aware AI/ML methods for air quality monitoring and low-cost sensor calibration
-- Conducted research on satellite remote sensing, geospatial AI, and spatiotemporal data integration for environmental applications
+- Applied deep learning and multi-source data fusion to reconstruct gaps in satellite observations, including aerosol optical depth (AOD) and Chesapeake Bay chlorophyll-a
 - Evaluated model reliability and uncertainty under challenging conditions, including extreme air pollution and wildfire events
 
 **Graduate Research Assistant** | *NSF Spatiotemporal Innovation Center, George Mason University* | Aug 2020 - Dec 2025
