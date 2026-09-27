@@ -2,7 +2,7 @@
 
 I am a Postdoctoral Researcher in the [Gangarosa Department of Environmental Health](https://sph.emory.edu/departments/eh/) at [Emory University](https://www.emory.edu/)'s Rollins School of Public Health. As part of a [Health Effects Institute (HEI)](https://www.healtheffects.org/)-funded project investigating the health impacts of unconventional oil and gas development, I work on improving satellite-based air pollution exposure assessment through satellite validation and uncertainty characterization.
 
-My research brings together satellite remote sensing, geospatial AI, and spatiotemporal data integration to improve the reliability of environmental exposure estimates. I received my Ph.D. in Earth Systems and Geoinformation Science from George Mason University in December 2025.
+My research brings together satellite remote sensing, geospatial AI, and spatiotemporal data integration to improve the reliability of environmental exposure estimates. I received my Ph.D. in Earth Systems and Geoinformation Science from George Mason University in December 2025. My work has been cited <strong><span id='total_cit'>175</span>+</strong> times on [Google Scholar](https://scholar.google.com/citations?user=vDCNltwAAAAJ).
 
 # 🔬 Research Interests
 
