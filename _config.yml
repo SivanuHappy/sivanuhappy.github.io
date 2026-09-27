@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Anusha Srirenganathan Malarvizhi"
-description              : "Research Scientist | Air Quality Monitoring, Remote Sensing, and Geospatial AI"
+description              : "Postdoctoral Researcher at Emory University | Satellite Remote Sensing, Air Quality, and Geospatial AI"
 repository               : "sivanuhappy/sivanuhappy.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :
 author:
   name             : "Anusha Srirenganathan Malarvizhi"
   avatar           : "images/profile.jpg"
-  bio              : "Research Scientist specializing in Air Quality Monitoring, Remote Sensing, and Geospatial AI"
-  location         : "Herndon, Virginia, USA"
-  employer         : "NSF Spatiotemporal Innovation Center"
+  bio              : "Postdoctoral Researcher at Emory University specializing in Satellite Remote Sensing, Air Quality, and Geospatial AI"
+  location         : "Atlanta, Georgia, USA"
+  employer         : "Emory University"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=vDCNltwAAAAJ"  # Update with your ID
-  email            : "asrireng@gmu.edu"
+  email            : "asriren@emory.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
